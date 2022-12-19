@@ -35,7 +35,7 @@ function capture(title) {
 - Chrome: Uncaught DOMException: Failed to execute 'toDataURL' on 'HTMLCanvasElement': Tainted canvases may not be exported.
 - Firefox: Uncaught DOMException: The operation is insecure.
 
-disabling web security by flags won't work, fuck CORS
+disabling web security by flags won't work, fuck CORS;
 instead, open the video url in a new tab then use the script, e.g.
 ```js
 document.location = document.querySelector("video").src
